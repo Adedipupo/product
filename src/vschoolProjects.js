@@ -17,3 +17,27 @@ const products = [
         price: 300,
         description: "Don't have a computer? No problem!"
     },
+    {
+        id: "4",
+        name: "Coffee",
+        price: 2,
+        description: "Wake up!"
+    },
+    {
+        id: "5",
+        name: "Snacks",
+        price: 0,
+        description: "Free snacks!"
+    },
+    {
+        id: "6",
+        name: "Rubber Duckies",
+        price: 3.50,
+        description: "To help you solve your hardest coding problems."
+    },
+    {
+        id: "7",
+        name: "Fidget Spinner",
+        price: 21.99,
+        description: "Because we like to pretend we're in high school."
+    },
