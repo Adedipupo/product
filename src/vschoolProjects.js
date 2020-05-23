@@ -41,3 +41,12 @@ const products = [
         price: 21.99,
         description: "Because we like to pretend we're in high school."
     },
+    {
+        id: "8",
+        name: "Sticker Set",
+        price: 14.99,
+        description: "To prove to other devs you know a lot."
+    }
+]
+
+export default products;
