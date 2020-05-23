@@ -4,7 +4,7 @@ import './App.css';
 import Product from './Product';
 
 function App() {
-
+ const newProducts = productsData.map(item => <Product  />)
   return (
     <div>
      
