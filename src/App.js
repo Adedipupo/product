@@ -1,11 +1,10 @@
 import React from 'react';
 import productsData from './productsData';
 import './App.css';
+import products from './productsData';
 
 function App() {
-  const newComponent = productsData.map(() => {
-    
-  })
+
   return (
     <div>
 hello weee
