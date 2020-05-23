@@ -4,10 +4,10 @@ import './App.css';
 import Product from './Product';
 
 function App() {
- const newProducts = productsData.map(item => <Product  />)
+ const newProducts = productsData.map(item => <Product key={item.id} product={item} />)
   return (
     <div>
-     
+     {newProducts}
     </div>
   );
 }
