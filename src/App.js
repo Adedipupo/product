@@ -1,5 +1,5 @@
 import React from 'react';
-import productData from './vschoolProjects';
+import productData from './productsData';
 import './App.css';
 
 function App() {
