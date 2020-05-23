@@ -1,4 +1,5 @@
 import React from 'react';
+import productData from './vschoolProjects';
 import './App.css';
 
 function App() {
