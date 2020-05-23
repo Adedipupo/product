@@ -4,7 +4,8 @@ const Product = (props) => {
 return(
   <div>
      <h2>{props.products.name}</h2>
-<p>{}</p>
+    <p>{props.product.price.toLocaleString("en-US",
+     { style: "currency", currency: "USD" })} - {props.product.description}</p>
   </div>
 )
 }
